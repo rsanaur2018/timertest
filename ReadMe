@@ -1,0 +1,14 @@
+Project description:
+This project is to test E.ggtimer.com Countdowm timer using BDD.
+
+Local Dependencies:
+Chrome driver path = C:\chromedriver\chromedriver.exe
+(Tested with latest chrome driver only)
+
+Instructions to build and run:
+1. Clone git repository (Repository URL: https://github.com/rsanaur2018/timertest.git) using git clone
+2. Open "timertest" project with IntelliJ IDE/Eclipse as Maven project.
+3. To run the project you can use either of below options:
+    - Run it using maven --> mvn test
+    - Run it through TimerTest utility
+4. Once the test run finished you can refer the report generated under target->cucumber-report
