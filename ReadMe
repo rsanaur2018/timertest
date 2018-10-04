@@ -12,3 +12,18 @@ Instructions to build and run:
     - Run it using maven --> mvn test
     - Run it through TimerTest utility
 4. Once the test run finished you can refer the report generated under target->cucumber-report
+
+
+Implementation Highlights : 
+
+i)  This has been created as a maven project. Dependencies added in POM.XML 
+ii) BDD approach is followed : Required Feature file is written with scenarios and respective step definition files are
+    created using page object model.
+iii) Report - I have used cucumber reports to track test run results.(Please refer 'overview-features.html' for results in
+     graphical & tabular form
+
+
+Improvement scope : 
+
+i) The current test only caters to time entered in seconds only.( we can enter time more than 60 seconds).
+ii) The test can be enhanced to enter time in minutes and hours scenarios and other special timers.
